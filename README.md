@@ -83,7 +83,6 @@ Ensure that ports 8000 and 3306 are not being used by other services on your mac
 
 You can modify the .env file to configure database credentials and other settings as needed.
 
-I imple
 
 ### Authors
 Kamal Asran
