@@ -14,4 +14,6 @@ Route::post('/login', [LoginController::class, 'login']);
 
 Route::group(['middleware' => ['auth:sanctum']], function () {
     Route::get('/get-available-seats', [TripController::class, 'getAvailableSeats']);
+    Route::post('/book-seat', [TripController::class, 'bookSeat']);
+
 });
