@@ -20,31 +20,9 @@ Before you begin, ensure you have the following installed on your system:
 1. Clone the repository to your local machine:
 
 git clone https://github.com/kamal-asran/fleet_management.git
+
 cd fleet_management
 
-# Fleet Management System (Bus Booking System)
-
-This project is a Fleet Management System (Bus Booking System) implemented using the Laravel Framework.
-
-## Getting Started
-
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-Before you begin, ensure you have the following installed on your system:
-
-- PHP (>= 7.4)
-- Composer
-- Docker
-- Git
-
-### Installing
-
-1. Clone the repository to your local machine:
-
-git clone https://github.com/kamal-asran/fleet_management.git
-cd fleet_management
 
 2. Install project dependencies using Composer:
 composer instal
