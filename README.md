@@ -22,9 +22,6 @@ Before you begin, ensure you have the following installed on your system:
 git clone https://github.com/kamal-asran/fleet_management.git
 cd fleet_management
 
-
-Sure, here's the full updated README.md file:
-
 # Fleet Management System (Bus Booking System)
 
 This project is a Fleet Management System (Bus Booking System) implemented using the Laravel Framework.
@@ -73,6 +70,11 @@ docker-compose exec app php artisan db:seed
 
 Now, you can access the application by navigating to http://127.0.0.1:8000 in your web browser.
 
+### Running Unit Tests
+I have included some unit tests to ensure the reliability and functionality of the system. You can run the tests using the following command:
+
+docker-compose exec app php artisan test
+
 ### Additional Notes
 
 The docker-compose.yml file is configured to run the Laravel application, MySQL database, and Nginx server.
@@ -80,6 +82,8 @@ The docker-compose.yml file is configured to run the Laravel application, MySQL 
 Ensure that ports 8000 and 3306 are not being used by other services on your machine.
 
 You can modify the .env file to configure database credentials and other settings as needed.
+
+I imple
 
 ### Authors
 Kamal Asran
