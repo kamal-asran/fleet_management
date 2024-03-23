@@ -32,7 +32,7 @@ class TripController extends Controller
     }
     public function bookSeat(BookSeatRequest $request)
     {
-        $userId = $request->user()->id; // Assuming user ID is retrieved from authentication
+        $userId = auth()->user()->id; // Assuming user ID is retrieved from authentication
         $tripId = $request->trip_id;
         $fromStationId = $request->from_station_id;
         $toStationId = $request->to_station_id;
