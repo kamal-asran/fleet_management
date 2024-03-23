@@ -80,3 +80,6 @@ The docker-compose.yml file is configured to run the Laravel application, MySQL 
 Ensure that ports 8000 and 3306 are not being used by other services on your machine.
 
 You can modify the .env file to configure database credentials and other settings as needed.
+
+### Authors
+Kamal Asran
