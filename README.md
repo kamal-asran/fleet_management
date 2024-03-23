@@ -25,8 +25,6 @@ cd fleet_management
 
 Sure, here's the full updated README.md file:
 
-markdown
-Copy code
 # Fleet Management System (Bus Booking System)
 
 This project is a Fleet Management System (Bus Booking System) implemented using the Laravel Framework.
